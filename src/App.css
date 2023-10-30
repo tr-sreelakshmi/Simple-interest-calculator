@@ -1,38 +1,89 @@
-.App {
+*{
+  margin: 0px;
+padding: 0px;
+}
+
+.App{
+  width: 100%;
+  height: 700px;
+background-color: rgba(0, 139, 139, 0.33);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+background-color: darkcyan;
+width: 450px;
+border-radius: 10px;
+color: antiquewhite;
+padding: 50px;
+}
+
+.headings {
   text-align: center;
+  text-shadow:2px  2px 3px rgb(17, 75, 75);
+}
+.headings p{
+  margin-top:  15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.total{
+  background-color: rgba(132, 210, 214, 0.222);
+  border: 2px solid rgba(155, 196, 196, 0.33) ;
+height:100px ;  
+display: flex;
+justify-content: center;
+flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 3px 2px 2px rgb(6, 79, 79);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.total h3{
+  font-weight: 700;
+  font-size: xx-large;
+}
+.total p{
+text-align: center;
+font-size: large;
+margin-top:10px ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.input{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 40px;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.inbox{
   color: white;
 }
+.button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn1{
+background-color: rgb(245, 234, 234);
+padding: 10px;
+color: black;
+box-shadow: 2px 2px 3px rgb(6, 79, 79);
 }
+
+
+
+  #btn2{
+    background-color: white;
+    padding: 12px;
+    color: black;
+    box-shadow: 2px 2px 3px rgb(6, 79, 79);
+    }
+    
+  
